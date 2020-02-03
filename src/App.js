@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import HomeReviews from './components/home/HomeReviews'
 import HomeFans from './components/home/HomeFans'
-//import Footer from './components/home/Footer'
+import Footer from './components/home/Footer'
 import './reset.css'
 import './App.css'
 
@@ -61,12 +61,20 @@ render () {
       </aside> : null}
 
       {currentView === 'Contact' ? <summary>
-        <h1>Contact for Booking:</h1>
+        <h1 className ='booking'>Booking Information Contact:</h1>
+        <br/>
+        <h2>Tony Crawford</h2>
+        <br/>
+        <h2>tony.crawford1@aol.com</h2>
+        <br/>
+        <h2>Or</h2>
         <br/>
         <h2>Traci Crawford</h2>
         <br/>
         <h2>tracicrawford11@yahoo.com</h2>
       </summary> : null}
+
+      <Footer/>
   
   </div>
   

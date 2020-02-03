@@ -1,9 +1,5 @@
-import React, {Component} from 'react'
-import axios from 'axios'
+import React from 'react'
 
-function footer () {
-    return CopyRight
-}
-footer ()
+const Footer = () => <div>Created with Love by Traci 2020</div>
 
 export default Footer
