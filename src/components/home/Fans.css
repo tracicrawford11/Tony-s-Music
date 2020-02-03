@@ -1,0 +1,10 @@
+.fans {
+    height: 75vh;
+    text-align: center;
+    margin: 30px;
+    background-color: beige;
+    color: purple
+}
+.fanEntries {
+    padding: 10px;
+}
